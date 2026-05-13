@@ -178,18 +178,24 @@ git remote -v
 
 ---
 
-## 7. 拉取仓库代码
+## 7. 拉取仓库代码并切换实验分支
 
-执行：
+先拉取远程仓库代码：
 
 ```bash
 git pull
 ```
 
-如果提示需要指定分支，可以尝试：
+拉取完成后，可以切换到对应的实验分支，例如 `lab0`、`lab1`、`lab2` 等：
 
 ```bash
-git pull origin labx
+git checkout labx
+```
+
+其中 `labx` 替换成你需要的实验分支名，例如：
+
+```bash
+git checkout lab0
 ```
 
 ---
