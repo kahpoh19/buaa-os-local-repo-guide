@@ -1,6 +1,6 @@
 # BUAA OS 课程仓库本地连接教程
 
-本文档用于记录如何在本地通过 SSH 连接 BUAA OS 课程 Git 仓库，并拉取/推送代码。
+本文档用于记录如何在本地通过 SSH 连接 BUAA OS 课程 Git 仓库，并拉取代码。
 
 ---
 
@@ -68,13 +68,13 @@ C:\Users\你的用户名\.ssh\id_ed25519.pub
 git.os.buaa.edu.cn
 ```
 
-找到：
+登录后，按照下面的路径进入 SSH Keys 页面：
 
 ```text
-SSH Keys
+右上角头像 → Preferences → 左侧菜单 SSH Keys
 ```
 
-把刚才复制的公钥添加进去。
+把刚才复制的公钥内容添加进去。
 
 注意：上传的是 `.pub` 结尾的公钥文件内容，不是私钥。
 
