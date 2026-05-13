@@ -2,14 +2,6 @@
 
 本文档用于记录如何在本地通过 SSH 连接 BUAA OS 课程 Git 仓库，并拉取代码。
 
-示例远程仓库地址：
-
-```bash
-git@git.os.buaa.edu.cn:os2026/74xxxxxx.git
-```
-
-其中 `74xxxxxx` 需要替换为你自己的学号或仓库编号。
-
 ---
 
 ## 1. 创建 SSH Key
@@ -170,7 +162,7 @@ git init
 git remote add origin git@git.os.buaa.edu.cn:os2026/74xxxxxx.git
 ```
 
-其中 `74xxxxxx` 替换成你自己的仓库编号。
+其中 `74xxxxxx` 替换成你自己的学号。
 
 如果之前已经添加过 `origin`，可以使用下面的命令修改地址：
 
